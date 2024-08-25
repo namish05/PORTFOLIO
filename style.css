@@ -7,7 +7,7 @@
 
 body {
     color: #ededed;
-    background: #081b29;
+    background: #081429;
 }
 
 .header {
@@ -212,7 +212,6 @@ body {
     color: aliceblue;
     font-size: 20px;
     line-height: 1.4;
-    margin-bottom: 4 rem;
 }
 
 .sub-title {
@@ -304,8 +303,11 @@ body {
 
 .skills {
     width: 100%;
-    max-width: 600px;
-    padding: 0 20px;
+     padding: 0 20px;
+}
+
+.progress-bar{
+    max-width: 60%;
 }
 
 .sub-title1 {
@@ -387,8 +389,7 @@ body {
 /* project section */
 
 .main-text {
-    padding-top: 130px;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 .main-text h2 {
@@ -404,6 +405,7 @@ body {
 }
 
 .portfolio-content {
+    margin-top: 50px;
     display: flex;
     grid-template-columns: repeat(auto-fit, minmax(359px auto));
 }
@@ -450,7 +452,7 @@ body {
 }
 
 .layer p {
-    color: #da7d05;
+    color: #fff;
     font-size: 1rem;
     line-height: 1.8;
 }
