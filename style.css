@@ -61,7 +61,7 @@ body {
     width: 100%;
     justify-content: space-between;
     height: 110vh;
-    background: url(pic\ 2.png);
+    background: url(pic\ 2.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -691,4 +691,69 @@ form textarea {
         transform: translateY(0px);
         opacity: 1;
     }
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .header {
+    padding: 15px 5%;
+  }
+  .home {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    padding: 100px 5%;
+  }
+  .about {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .about-img img {
+    max-width: 80%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    display: none;
+  }
+  .header {
+    justify-content: space-between;
+  }
+  .logo {
+    font-size: 20px;
+  }
+  .sub-title, .sub-title1 {
+    font-size: 40px;
+  }
+  .contact {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+  .contact-text h2 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-content h1 {
+    font-size: 30px;
+  }
+  .home-content h3 {
+    font-size: 20px;
+  }
+  .home-content p {
+    font-size: 14px;
+  }
+  .btn-box, .read, .send {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  .services-list {
+    grid-template-columns: 1fr;
+  }
+  .progress-bar {
+    max-width: 100%;
+  }
 }
